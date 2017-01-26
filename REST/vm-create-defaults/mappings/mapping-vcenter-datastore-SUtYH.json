@@ -1,0 +1,17 @@
+{
+  "id" : "36c572fb-7a30-35ed-9de2-cd22bfc86eaf",
+  "request" : {
+    "url" : "/rest/vcenter/datastore?filter.names.1=",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-datastore-SUtYH.json",
+    "headers" : {
+      "Date" : "Fri, 20 Jan 2017 20:00:02 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "36c572fb-7a30-35ed-9de2-cd22bfc86eaf"
+}

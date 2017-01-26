@@ -1,0 +1,17 @@
+{
+  "id" : "2e160d71-f812-306c-a99a-b64691324c7c",
+  "request" : {
+    "url" : "/rest/vcenter/host?filter.names.1=10.162.110.106",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-host-WQ2ul.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:31:13 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "2e160d71-f812-306c-a99a-b64691324c7c"
+}

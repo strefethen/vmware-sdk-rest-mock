@@ -1,0 +1,15 @@
+{
+  "id" : "e97d5a9d-f6e7-31c3-b063-dfc629dfe214",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-635/power/start",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-power-start-NrIWo.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:17:22 GMT"
+    }
+  },
+  "uuid" : "e97d5a9d-f6e7-31c3-b063-dfc629dfe214"
+}

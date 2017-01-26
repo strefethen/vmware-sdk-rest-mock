@@ -1,0 +1,17 @@
+{
+  "id" : "b3c8833e-5dd0-3002-98c0-94880fcab4ab",
+  "request" : {
+    "url" : "/rest/vcenter/host/host-651",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-host-host-651-l0Awb.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:46:59 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "b3c8833e-5dd0-3002-98c0-94880fcab4ab"
+}

@@ -1,0 +1,1 @@
+{"type":"com.vmware.vapi.std.errors.error","value":{"messages":[{"args":[],"default_message":"Invalid datastore path 'photonOS.iso'.","id":"vmsg.InvalidDatastorePath.summary"}]}}

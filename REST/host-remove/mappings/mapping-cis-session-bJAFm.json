@@ -1,0 +1,15 @@
+{
+  "id" : "8335c0d1-1d1f-3e5b-a1a5-3e7b6e077ae2",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-bJAFm.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:31:15 GMT"
+    }
+  },
+  "uuid" : "8335c0d1-1d1f-3e5b-a1a5-3e7b6e077ae2"
+}

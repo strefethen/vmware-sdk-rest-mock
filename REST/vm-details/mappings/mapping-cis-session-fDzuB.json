@@ -1,0 +1,15 @@
+{
+  "id" : "ee8cf863-694d-3b52-bf41-ef3ffc5ff202",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-fDzuB.txt",
+    "headers" : {
+      "Date" : "Fri, 20 Jan 2017 19:34:05 GMT"
+    }
+  },
+  "uuid" : "ee8cf863-694d-3b52-bf41-ef3ffc5ff202"
+}

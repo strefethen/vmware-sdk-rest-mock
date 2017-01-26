@@ -1,0 +1,17 @@
+{
+  "id" : "f53a5add-cda8-359e-ad52-51d0a7d4502c",
+  "request" : {
+    "url" : "/rest/vcenter/datacenter/datacenter-591",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-datacenter-datacenter-591-vAHCG.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:46:53 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "f53a5add-cda8-359e-ad52-51d0a7d4502c"
+}

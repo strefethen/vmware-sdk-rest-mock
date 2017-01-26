@@ -1,0 +1,17 @@
+{
+  "id" : "9aeeef24-0762-3b7d-9904-82cf943d9b00",
+  "request" : {
+    "url" : "/rest/vcenter/host?filter.names.1=10.162.110.106",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-host-MnDuJ.json",
+    "headers" : {
+      "Date" : "Tue, 24 Jan 2017 17:52:49 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "9aeeef24-0762-3b7d-9904-82cf943d9b00"
+}

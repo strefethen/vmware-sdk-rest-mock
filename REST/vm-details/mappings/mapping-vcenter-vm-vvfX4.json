@@ -1,0 +1,17 @@
+{
+  "id" : "85a76141-64c7-3d66-87ba-5bdeaa4b1379",
+  "request" : {
+    "url" : "/rest/vcenter/vm",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-vm-vvfX4.json",
+    "headers" : {
+      "Date" : "Fri, 20 Jan 2017 19:34:03 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "85a76141-64c7-3d66-87ba-5bdeaa4b1379"
+}

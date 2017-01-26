@@ -1,0 +1,17 @@
+{
+  "id" : "adfc1b0e-5711-320e-8dac-3d7a5716f18c",
+  "request" : {
+    "url" : "/rest/vcenter/folder?filter.type=VIRTUAL_MACHINE&filter.names.1=Discovered%20virtual%20machine",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-folder-XeF65.json",
+    "headers" : {
+      "Date" : "Fri, 20 Jan 2017 20:00:05 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "adfc1b0e-5711-320e-8dac-3d7a5716f18c"
+}

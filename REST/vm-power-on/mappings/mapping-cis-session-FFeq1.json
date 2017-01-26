@@ -1,0 +1,15 @@
+{
+  "id" : "df3ce29b-47f6-3029-8d8f-664edcfc4cfa",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-FFeq1.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:17:23 GMT"
+    }
+  },
+  "uuid" : "df3ce29b-47f6-3029-8d8f-664edcfc4cfa"
+}

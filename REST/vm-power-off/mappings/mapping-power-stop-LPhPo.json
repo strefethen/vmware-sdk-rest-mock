@@ -1,0 +1,17 @@
+{
+  "id" : "ef3aeec3-9342-3e16-8373-0de282018ac1",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-635/power/stop",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-power-stop-LPhPo.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:29:58 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "ef3aeec3-9342-3e16-8373-0de282018ac1"
+}

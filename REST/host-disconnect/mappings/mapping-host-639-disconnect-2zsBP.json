@@ -1,0 +1,15 @@
+{
+  "id" : "81cd20c4-5fd4-39bd-a38c-6e7479435ed1",
+  "request" : {
+    "url" : "/rest/vcenter/host/host-639/disconnect",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-host-639-disconnect-2zsBP.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:34:40 GMT"
+    }
+  },
+  "uuid" : "81cd20c4-5fd4-39bd-a38c-6e7479435ed1"
+}

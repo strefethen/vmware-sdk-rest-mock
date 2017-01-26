@@ -1,0 +1,22 @@
+{
+  "id" : "d3b83b15-96ea-311e-ac07-625e94a7c98c",
+  "request" : {
+    "url" : "/rest/vcenter/host",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"spec\":{\"force_add\":true,\"folder\":\"group-h593\",\"hostname\":\"10.162.110.106\",\"user_name\":\"root\",\"password\":\"\",\"port\":443,\"thumbprint_verification\":\"NONE\"}}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-host-QKXmf.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:46:53 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "d3b83b15-96ea-311e-ac07-625e94a7c98c"
+}

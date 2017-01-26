@@ -1,0 +1,15 @@
+{
+  "id" : "ffce4062-d2b1-38a0-94a9-14171d510ee6",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-vukex.txt",
+    "headers" : {
+      "Date" : "Tue, 24 Jan 2017 17:52:50 GMT"
+    }
+  },
+  "uuid" : "ffce4062-d2b1-38a0-94a9-14171d510ee6"
+}

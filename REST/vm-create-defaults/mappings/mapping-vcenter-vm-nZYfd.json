@@ -1,0 +1,22 @@
+{
+  "id" : "f1a4cfa3-51d2-3916-905c-1a58b9604949",
+  "request" : {
+    "url" : "/rest/vcenter/vm",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"spec\":{\"guest_OS\":\"RHEL_7_64\",\"placement\":{\"datastore\":\"datastore-20\",\"folder\":\"group-v16\",\"resource_pool\":\"resgroup-18\"}}}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-vcenter-vm-nZYfd.json",
+    "headers" : {
+      "Date" : "Fri, 20 Jan 2017 20:00:05 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "f1a4cfa3-51d2-3916-905c-1a58b9604949"
+}

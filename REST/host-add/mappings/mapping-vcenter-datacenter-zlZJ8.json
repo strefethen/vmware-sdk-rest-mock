@@ -1,0 +1,17 @@
+{
+  "id" : "34dbc269-8c3b-3ab1-a1c7-1166092a2b31",
+  "request" : {
+    "url" : "/rest/vcenter/datacenter?filter.names.1=Sample%20DC%201",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-datacenter-zlZJ8.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:46:53 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "34dbc269-8c3b-3ab1-a1c7-1166092a2b31"
+}

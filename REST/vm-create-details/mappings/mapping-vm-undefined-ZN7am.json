@@ -1,0 +1,17 @@
+{
+  "id" : "e4d896ed-83c2-3896-8c7a-1c852766f6a1",
+  "request" : {
+    "url" : "/rest/vcenter/vm/undefined",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-vm-undefined-ZN7am.json",
+    "headers" : {
+      "Date" : "Tue, 24 Jan 2017 17:52:50 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "e4d896ed-83c2-3896-8c7a-1c852766f6a1"
+}

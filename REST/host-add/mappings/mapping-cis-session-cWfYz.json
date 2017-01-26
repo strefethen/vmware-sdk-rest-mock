@@ -1,0 +1,15 @@
+{
+  "id" : "044a6309-5441-3255-aaba-72155d91da24",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-cWfYz.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:46:59 GMT"
+    }
+  },
+  "uuid" : "044a6309-5441-3255-aaba-72155d91da24"
+}

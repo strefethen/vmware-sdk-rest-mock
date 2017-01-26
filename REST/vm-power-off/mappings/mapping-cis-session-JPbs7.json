@@ -1,0 +1,19 @@
+{
+  "id" : "3f555ecd-63f0-3c66-bd22-767ad4c800ac",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-JPbs7.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:29:56 GMT",
+      "Set-Cookie" : "vmware-api-session-id=435af6beb979cb6cced58c7c766468e7;Path=/rest;Secure;HttpOnly",
+      "Expires" : "Thu, 01 Jan 1970 00:00:00 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "3f555ecd-63f0-3c66-bd22-767ad4c800ac"
+}

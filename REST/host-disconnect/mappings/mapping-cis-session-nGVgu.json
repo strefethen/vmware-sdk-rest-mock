@@ -1,0 +1,15 @@
+{
+  "id" : "6d7ad357-cb5a-3ff6-9492-0c45db751330",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-nGVgu.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:34:41 GMT"
+    }
+  },
+  "uuid" : "6d7ad357-cb5a-3ff6-9492-0c45db751330"
+}

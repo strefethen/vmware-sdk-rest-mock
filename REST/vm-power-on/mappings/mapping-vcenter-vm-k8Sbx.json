@@ -1,0 +1,17 @@
+{
+  "id" : "440e3907-9de5-39d3-83b3-481ee7dfbeab",
+  "request" : {
+    "url" : "/rest/vcenter/vm?filter.names.1=Sample%20Basic%20VM%20for%20Simple%20Testbed",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-vm-k8Sbx.json",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:17:20 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "440e3907-9de5-39d3-83b3-481ee7dfbeab"
+}

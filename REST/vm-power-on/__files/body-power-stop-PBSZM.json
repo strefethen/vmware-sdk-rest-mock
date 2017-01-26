@@ -1,0 +1,1 @@
+{"type":"com.vmware.vapi.std.errors.unauthenticated","value":{"messages":[{"args":[],"default_message":"This method requires authentication.","id":"vapi.method.authentication.required"}]}}

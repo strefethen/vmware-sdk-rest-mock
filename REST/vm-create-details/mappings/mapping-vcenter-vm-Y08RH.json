@@ -1,0 +1,22 @@
+{
+  "id" : "f6ab112a-19fa-31d5-bce1-24e45adf73d9",
+  "request" : {
+    "url" : "/rest/vcenter/vm",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"spec\":{\"name\":\"Sample Basic VM for Simple Testbed\",\"guest_OS\":\"RHEL_7_64\",\"placement\":{\"datastore\":\"datastore-40\",\"folder\":\"group-v16\",\"resource_pool\":\"resgroup-18\"},\"memory\":{\"size_MiB\":4,\"hot_add_enabled\":true},\"floppies\":[],\"cpu\":{\"hot_remove_enabled\":true,\"count\":1,\"hot_add_enabled\":true,\"cores_per_socket\":1},\"cdroms\":[{\"type\":\"IDE\",\"backing\":{\"iso_file\":\"photonOS.iso\",\"type\":\"ISO_FILE\"}}],\"disks\":[{\"new_vmdk\":{\"capacity\":1024}}]}}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 500,
+    "bodyFileName" : "body-vcenter-vm-Y08RH.json",
+    "headers" : {
+      "Date" : "Tue, 24 Jan 2017 17:52:50 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "f6ab112a-19fa-31d5-bce1-24e45adf73d9"
+}

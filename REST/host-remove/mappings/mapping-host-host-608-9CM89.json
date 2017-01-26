@@ -1,0 +1,15 @@
+{
+  "id" : "8d1238bf-f4db-33af-8ea8-e9484c9a0a7d",
+  "request" : {
+    "url" : "/rest/vcenter/host/host-608",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-host-host-608-9CM89.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:31:14 GMT"
+    }
+  },
+  "uuid" : "8d1238bf-f4db-33af-8ea8-e9484c9a0a7d"
+}

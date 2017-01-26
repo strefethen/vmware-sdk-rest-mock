@@ -1,0 +1,15 @@
+{
+  "id" : "188ded3e-e20f-352d-9bff-2a2fa6494a9d",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-vF31B.txt",
+    "headers" : {
+      "Date" : "Fri, 20 Jan 2017 20:00:06 GMT"
+    }
+  },
+  "uuid" : "188ded3e-e20f-352d-9bff-2a2fa6494a9d"
+}

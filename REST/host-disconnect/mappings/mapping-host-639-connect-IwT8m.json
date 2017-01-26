@@ -1,0 +1,15 @@
+{
+  "id" : "c2a94f87-2ddb-3703-8fe7-183ad76ce895",
+  "request" : {
+    "url" : "/rest/vcenter/host/host-639/connect",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-host-639-connect-IwT8m.txt",
+    "headers" : {
+      "Date" : "Thu, 26 Jan 2017 16:34:41 GMT"
+    }
+  },
+  "uuid" : "c2a94f87-2ddb-3703-8fe7-183ad76ce895"
+}
