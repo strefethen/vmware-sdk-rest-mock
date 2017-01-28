@@ -16,8 +16,6 @@ Setup Steps:
 
     Note: This example uses the setup testbed as created by the Python SDK.
 
-settings.js:
-
         module.exports = {
             host: 'https://localhost:8082', //No default! Please provide a value.
             username: 'administrator@vsphere.local', //username. No default! Please provide a value.
