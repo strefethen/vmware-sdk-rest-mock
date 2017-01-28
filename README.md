@@ -16,23 +16,25 @@ Setup Steps:
 
     Note: This example uses the setup testbed as created by the Python SDK.
 
-    module.exports = {
-    host: 'https://localhost:8082', //No default! Please provide a value.
-    username: 'administrator@vsphere.local', //username. No default! Please provide a value.
-    password: 'Admin!23', // password. No default! Please provide a value.
-    ssl: false, // use strict ssl or not.. false allows you to accept all certs.
-                // NOTE: SSL should be set to true in a production environment.
-    host1: '10.162.110.106',
-    host2: '10.162.98.79',
-    hostUsername: 'root',
-    hostPassword: '',
-    datacenter: 'Sample DC 1', // the name of the datacenter
-    datastore: 'Shared NFS Volume', // the name of a datastore
-    vmName: 'Sample Basic VM for Simple Testbed', // a name of a VM, used in some of the samples,
-    isoName: 'photonOS.iso', // the name of the ISO to use as the OS when creating a VM
-                // (e.g. [datastore1] hoton-minimal-1.0TP2.iso)
-    cleanup: true // true to clean up any data a sample created, false to leave it
-    }
+settings.js:
+
+        module.exports = {
+            host: 'https://localhost:8082', //No default! Please provide a value.
+            username: 'administrator@vsphere.local', //username. No default! Please provide a value.
+            password: 'Admin!23', // password. No default! Please provide a value.
+            ssl: false, // use strict ssl or not.. false allows you to accept all certs.
+                        // NOTE: SSL should be set to true in a production environment.
+            host1: '10.162.110.106',
+            host2: '10.162.98.79',
+            hostUsername: 'root',
+            hostPassword: '',
+            datacenter: 'Sample DC 1', // the name of the datacenter
+            datastore: 'Shared NFS Volume', // the name of a datastore
+            vmName: 'Sample Basic VM for Simple Testbed', // a name of a VM, used in some of the samples,
+            isoName: 'photonOS.iso', // the name of the ISO to use as the OS when creating a VM
+                        // (e.g. [datastore1] hoton-minimal-1.0TP2.iso)
+            cleanup: true // true to clean up any data a sample created, false to leave it
+        }
 
 5. Run the SDK Samples
 
