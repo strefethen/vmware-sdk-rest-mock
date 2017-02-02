@@ -43,13 +43,15 @@ in two folders under the "__files" and "mappings".
 
 1. Restart wiremock server as follows:
 
-        sudo java -jar wiremock-standalone-2.5.0.jar --proxy-all=https://sc-rdops-vm20-dhcp-124-25.eng.vmware.com --https-port=443 --verbose --root-dir ~/REST/<sample_name>
+        java -jar wiremock-standalone-2.5.0.jar --https-port=8082 --verbose --root-dir ~/REST/<sample_name>
 
 2. Re-run the same SDK sample which should use the captured API calls from wiremock.
 
+NOTE: For Python the wiremock server can proxy port 443 though it will need to be launched using sudo to attach to that port #.
+
 Example:
 
-    $ java -jar wiremock-standalone-2.5.0.jar --proxy-all=https://sc-rdops-vm20-dhcp-124-25.eng.vmware.com --https-port=443 --verbose --root-dir ~/REST/vm-power-on
+    $ java -jar wiremock-standalone-2.5.0.jar --https-port=8082 --verbose --root-dir ~/REST/vm-power-on
     $ npm run vm-power-on
 
 Output (executes in 1 second with cached API calls):
