@@ -47,7 +47,7 @@ in two folders under the "__files" and "mappings".
 
 2. Re-run the same SDK sample which should use the captured API calls from wiremock.
 
-NOTE: For Python the wiremock server can proxy port 443 though it will need to be launched using sudo to attach to that port #. On Windows this means
+NOTE: For Python the wiremock server can proxy port 443 though on Linux/OSX it will need to be launched using sudo to bind to that port #. On Windows this means
 you'll need to use either "runas" from the command line or start a Command Prompt using "Run as Adminstrator" to access port 443. Also, note that if you are running
 Skype it can bind to ports 80 and 443 causing issues for running samples.
 
