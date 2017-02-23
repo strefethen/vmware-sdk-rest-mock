@@ -1,0 +1,15 @@
+{
+  "id" : "e068f8f5-af04-34c0-9e9b-dd7b883ead67",
+  "request" : {
+    "url" : "/rest/vcenter/host/host-651/connect",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-host-651-connect-cm2Yl.txt",
+    "headers" : {
+      "Date" : "Thu, 23 Feb 2017 18:05:21 GMT"
+    }
+  },
+  "uuid" : "e068f8f5-af04-34c0-9e9b-dd7b883ead67"
+}

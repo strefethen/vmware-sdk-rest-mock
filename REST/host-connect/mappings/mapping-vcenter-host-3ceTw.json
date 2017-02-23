@@ -1,0 +1,17 @@
+{
+  "id" : "51b2f614-16fb-3286-99e4-0fb9835d6b7f",
+  "request" : {
+    "url" : "/rest/vcenter/host?filter.names.1=10.162.110.106&filter.connection_states.1=DISCONNECTED",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-host-3ceTw.json",
+    "headers" : {
+      "Date" : "Thu, 23 Feb 2017 18:05:20 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "51b2f614-16fb-3286-99e4-0fb9835d6b7f"
+}
