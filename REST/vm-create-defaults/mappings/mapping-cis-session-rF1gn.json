@@ -1,0 +1,15 @@
+{
+  "id" : "a190ae66-c61d-35c0-9bdc-0245a6c36315",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-rF1gn.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 20:00:57 GMT"
+    }
+  },
+  "uuid" : "a190ae66-c61d-35c0-9bdc-0245a6c36315"
+}

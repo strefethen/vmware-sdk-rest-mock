@@ -1,1 +1,0 @@
-{"type":"com.vmware.vapi.std.errors.not_found","value":{"messages":[{"args":["undefined"],"default_message":"Datacenter with identifier 'undefined' does not exist.","id":"com.vmware.api.vcenter.datacenter.not_found"}]}}

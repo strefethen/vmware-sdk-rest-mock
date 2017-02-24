@@ -1,1 +1,0 @@
-{"type":"com.vmware.vapi.std.errors.not_found","value":{"messages":[{"args":["undefined"],"default_message":"Host with identifier 'undefined' does not exist.","id":"com.vmware.api.vcenter.host.not_found"},{"args":[],"default_message":"The object 'vim.ManagedEntity:undefined' has already been deleted or has not been completely created","id":"vmsg.ManagedObjectNotFound.summary"}]}}

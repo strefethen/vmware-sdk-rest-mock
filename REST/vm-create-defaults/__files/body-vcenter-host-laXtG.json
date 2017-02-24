@@ -1,1 +1,0 @@
-{"type":"com.vmware.vapi.std.errors.invalid_argument","value":{"data":{"@class":"com.vmware.vapi.std.errors.argument_locations","secondary":[],"primary":"spec.folder"},"messages":[{"args":[],"default_message":"No host folder specified in create specification.","id":"com.vmware.api.vcenter.host.folder_not_specified"}]}}

@@ -1,1 +1,0 @@
-{"type":"com.vmware.vapi.std.errors.invalid_argument","value":{"messages":[{"args":["datastore-630"],"default_message":"Datastore with identifier 'datastore-630' is not accessible from any host in the specified cluster or resource pool.","id":"com.vmware.api.vcenter.vm.datastore_not_mounted_to_any_host"}]}}

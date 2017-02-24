@@ -1,5 +1,5 @@
 {
-  "id" : "dbf947bf-a48d-3529-8e43-aa2ea53494ac",
+  "id" : "ec91b498-ab7e-3384-bc0a-1bd2599b3bb4",
   "request" : {
     "url" : "/rest/vcenter/vm",
     "method" : "POST",
@@ -11,12 +11,12 @@
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-vcenter-vm-sPxLH.json",
+    "bodyFileName" : "body-vcenter-vm-YssDD.json",
     "headers" : {
-      "Date" : "Fri, 24 Feb 2017 19:58:19 GMT",
+      "Date" : "Fri, 24 Feb 2017 20:00:55 GMT",
       "Content-Type" : "application/json",
       "Transfer-Encoding" : "chunked"
     }
   },
-  "uuid" : "dbf947bf-a48d-3529-8e43-aa2ea53494ac"
+  "uuid" : "ec91b498-ab7e-3384-bc0a-1bd2599b3bb4"
 }

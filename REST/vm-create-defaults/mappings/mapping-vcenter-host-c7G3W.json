@@ -1,17 +1,17 @@
 {
-  "id" : "38c1c768-f97e-33fb-a6c8-7502644f139d",
+  "id" : "5fbe04b8-5b4e-368a-bd7c-224580750d8d",
   "request" : {
     "url" : "/rest/vcenter/host?filter.names.1=10.162.110.106",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-vcenter-host-FetvQ.json",
+    "bodyFileName" : "body-vcenter-host-c7G3W.json",
     "headers" : {
-      "Date" : "Fri, 24 Feb 2017 19:41:58 GMT",
+      "Date" : "Fri, 24 Feb 2017 20:00:54 GMT",
       "Content-Type" : "application/json",
       "Transfer-Encoding" : "chunked"
     }
   },
-  "uuid" : "38c1c768-f97e-33fb-a6c8-7502644f139d"
+  "uuid" : "5fbe04b8-5b4e-368a-bd7c-224580750d8d"
 }
