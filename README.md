@@ -41,6 +41,16 @@ in two folders under the "__files" and "mappings".
 
 ## Playback of the SDK Sample using captured API calls
 
+Included is a shell script to run all of the tests using Wiremock. The script makes the following assumptions:
+
+* The wiremock.jar file is located in ~/Downloads/wiremock/wiremock-standalone-2.5.0.jar
+* This git repostory is located at ~/github/vmware-sdk-rest-mock.
+
+    $ ./runtests.sh
+
+The shell script enumerates the scripts from package.json, launches wiremock pointing to the correct mappings, 
+executes the node script and shutsdown wiremock for the next iteration.
+
 1. Restart wiremock server as follows:
 
         java -jar wiremock-standalone-2.5.0.jar --https-port=8082 --verbose --root-dir ~/REST/<sample_name>
@@ -60,18 +70,17 @@ Output (executes in 1 second with cached API calls):
 
     $ vcenter npm run vm-power-on
 
-    > vsphere-automation-rest-api-samples@6.5.0 vm-power-on /Users/strefethen/Downloads/VMware-vSphere-Automation-SDK-REST-6.5.0/client/samples/javascript/vcenter
+    > vsphere-automation-rest-api-samples@6.5.0 vm-power-on /Users/strefethen/Downloads/VMware-vSphere-Automation-SDK-REST-6.5.0 original/client/samples/javascript/vcenter
     > node samples/vm/power/vm_power_on.js
 
     logging in
-    (node:33402) DeprecationWarning: 'GLOBAL' is deprecated, use 'global'
     Looking for VM with name Sample Basic VM for Simple Testbed
-    found it.. vm-635
-    Powering on vm-635
+    found it.. vm-802
+    Powering on vm-802
     {
     "statusCode": 200,
     "headers": {
-        "date": "Thu, 26 Jan 2017 16:17:22 GMT",
+        "date": "Fri, 24 Feb 2017 21:35:32 GMT",
         "connection": "close",
         "server": "Jetty(9.2.z-SNAPSHOT)"
     },
@@ -86,58 +95,13 @@ Output (executes in 1 second with cached API calls):
         "hash": null,
         "search": null,
         "query": null,
-        "pathname": "/rest/vcenter/vm/vm-635/power/start",
-        "path": "/rest/vcenter/vm/vm-635/power/start",
-        "href": "https://localhost:8082/rest/vcenter/vm/vm-635/power/start"
+        "pathname": "/rest/vcenter/vm/vm-802/power/start",
+        "path": "/rest/vcenter/vm/vm-802/power/start",
+        "href": "https://localhost:8082/rest/vcenter/vm/vm-802/power/start"
         },
         "method": "post",
         "headers": {
-        "Cookie": "vmware-api-session-id=66ef0f64aadf7b0bac6a91555774d4c1",
-        "Accept": "application/json",
-        "Content-Type": "application/json",
-        "content-length": 0
-        }
-    }
-    }
-    Cleaning up...
-    {
-    "statusCode": 401,
-    "body": {
-        "type": "com.vmware.vapi.std.errors.unauthenticated",
-        "value": {
-        "messages": [
-            {
-            "args": [],
-            "default_message": "This method requires authentication.",
-            "id": "vapi.method.authentication.required"
-            }
-        ]
-        }
-    },
-    "headers": {
-        "date": "Thu, 26 Jan 2017 16:17:23 GMT",
-        "content-type": "application/json",
-        "connection": "close",
-        "server": "Jetty(9.2.z-SNAPSHOT)"
-    },
-    "request": {
-        "uri": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "localhost:8082",
-        "port": "8082",
-        "hostname": "localhost",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/rest/vcenter/vm/vm-635/power/stop",
-        "path": "/rest/vcenter/vm/vm-635/power/stop",
-        "href": "https://localhost:8082/rest/vcenter/vm/vm-635/power/stop"
-        },
-        "method": "post",
-        "headers": {
-        "Cookie": "vmware-api-session-id=66ef0f64aadf7b0bac6a91555774d4c1",
+        "Cookie": "vmware-api-session-id=67653b9f861178c12c55a0498b2303e2",
         "Accept": "application/json",
         "Content-Type": "application/json",
         "content-length": 0
@@ -145,7 +109,3 @@ Output (executes in 1 second with cached API calls):
     }
     }
     logged out
-
-
-
-
