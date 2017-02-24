@@ -1,0 +1,17 @@
+{
+  "id" : "471d3b14-28bb-3bf2-a78d-c5c744b6bf3c",
+  "request" : {
+    "url" : "/rest/vcenter/resource-pool?filter.names.1=Resources&filter.hosts.1=host-822",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-resource-pool-PpeKn.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 22:38:42 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "471d3b14-28bb-3bf2-a78d-c5c744b6bf3c"
+}

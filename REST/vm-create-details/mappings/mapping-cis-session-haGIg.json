@@ -1,0 +1,15 @@
+{
+  "id" : "7795451e-7452-34f1-b8f0-0e87ee50b43d",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-haGIg.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 22:38:44 GMT"
+    }
+  },
+  "uuid" : "7795451e-7452-34f1-b8f0-0e87ee50b43d"
+}

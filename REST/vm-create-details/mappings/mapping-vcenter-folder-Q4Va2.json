@@ -1,17 +1,17 @@
 {
-  "id" : "4d47661b-5455-307e-82a2-876f4ea515ee",
+  "id" : "7b534d8a-31c1-3b6b-90ce-251a3fa141da",
   "request" : {
     "url" : "/rest/vcenter/folder?filter.type=VIRTUAL_MACHINE&filter.names.1=Discovered%20virtual%20machine",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-vcenter-folder-udlY5.json",
+    "bodyFileName" : "body-vcenter-folder-Q4Va2.json",
     "headers" : {
-      "Date" : "Tue, 24 Jan 2017 17:52:50 GMT",
+      "Date" : "Fri, 24 Feb 2017 22:38:43 GMT",
       "Content-Type" : "application/json",
       "Transfer-Encoding" : "chunked"
     }
   },
-  "uuid" : "4d47661b-5455-307e-82a2-876f4ea515ee"
+  "uuid" : "7b534d8a-31c1-3b6b-90ce-251a3fa141da"
 }

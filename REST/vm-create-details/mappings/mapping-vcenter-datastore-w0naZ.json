@@ -1,17 +1,17 @@
 {
-  "id" : "dd8001f6-7f0c-3b94-a030-6ba2753474ae",
+  "id" : "67e2a96f-adf6-3d0c-b77b-5c4a2931e89d",
   "request" : {
     "url" : "/rest/vcenter/datastore?filter.names.1=Shared%20NFS%20Volume",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-vcenter-datastore-Lvoxg.json",
+    "bodyFileName" : "body-vcenter-datastore-w0naZ.json",
     "headers" : {
-      "Date" : "Tue, 24 Jan 2017 17:52:48 GMT",
+      "Date" : "Fri, 24 Feb 2017 22:38:41 GMT",
       "Content-Type" : "application/json",
       "Transfer-Encoding" : "chunked"
     }
   },
-  "uuid" : "dd8001f6-7f0c-3b94-a030-6ba2753474ae"
+  "uuid" : "67e2a96f-adf6-3d0c-b77b-5c4a2931e89d"
 }

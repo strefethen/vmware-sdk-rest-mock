@@ -1,0 +1,22 @@
+{
+  "id" : "cf84c403-d5f6-3cc3-944f-e3286552ca1f",
+  "request" : {
+    "url" : "/rest/vcenter/vm",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"spec\":{\"name\":\"Sample Basic VM for Simple Testbed\",\"guest_OS\":\"RHEL_7_64\",\"placement\":{\"datastore\":\"datastore-826\",\"folder\":\"group-v819\",\"resource_pool\":\"resgroup-821\"},\"memory\":{\"size_MiB\":4,\"hot_add_enabled\":true},\"floppies\":[],\"cpu\":{\"hot_remove_enabled\":true,\"count\":1,\"hot_add_enabled\":true,\"cores_per_socket\":1},\"cdroms\":[{\"type\":\"IDE\",\"backing\":{\"iso_file\":\"[Shared NFS Volume] Sample_Backends/iso/photonOS.iso\",\"type\":\"ISO_FILE\"}}],\"disks\":[{\"new_vmdk\":{\"capacity\":1024}}]}}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-vm-1OSG5.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 22:38:43 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "cf84c403-d5f6-3cc3-944f-e3286552ca1f"
+}
