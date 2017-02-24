@@ -1,0 +1,15 @@
+{
+  "id" : "76138bb0-260e-3662-92e0-da4c2de4e5ec",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-802/power/start",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-power-start-3wGHU.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 21:35:32 GMT"
+    }
+  },
+  "uuid" : "76138bb0-260e-3662-92e0-da4c2de4e5ec"
+}

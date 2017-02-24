@@ -1,0 +1,15 @@
+{
+  "id" : "0409d09e-d74c-3da7-8035-d670dc156e83",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-qqEyG.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 21:35:33 GMT"
+    }
+  },
+  "uuid" : "0409d09e-d74c-3da7-8035-d670dc156e83"
+}

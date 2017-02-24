@@ -1,17 +1,17 @@
 {
-  "id" : "8c3d32c0-6f2d-3fd1-8ecf-fadf18dfa423",
+  "id" : "85dd9726-d631-341f-af9a-c7a2c2d65037",
   "request" : {
     "url" : "/rest/vcenter/vm?filter.names.1=Sample%20Basic%20VM%20for%20Simple%20Testbed",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-vcenter-vm-vjhQT.json",
+    "bodyFileName" : "body-vcenter-vm-5Xq0g.json",
     "headers" : {
-      "Date" : "Thu, 26 Jan 2017 16:29:56 GMT",
+      "Date" : "Fri, 24 Feb 2017 21:35:30 GMT",
       "Content-Type" : "application/json",
       "Transfer-Encoding" : "chunked"
     }
   },
-  "uuid" : "8c3d32c0-6f2d-3fd1-8ecf-fadf18dfa423"
+  "uuid" : "85dd9726-d631-341f-af9a-c7a2c2d65037"
 }

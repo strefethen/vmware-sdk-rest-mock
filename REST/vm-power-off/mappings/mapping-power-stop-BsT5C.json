@@ -1,0 +1,15 @@
+{
+  "id" : "c87715ec-2630-331f-a17f-e997404fd5c7",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-802/power/stop",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-power-stop-BsT5C.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 21:36:00 GMT"
+    }
+  },
+  "uuid" : "c87715ec-2630-331f-a17f-e997404fd5c7"
+}

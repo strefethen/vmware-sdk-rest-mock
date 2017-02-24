@@ -1,0 +1,15 @@
+{
+  "id" : "e1029be6-9518-3dac-bb0d-ba534566b942",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-BTKsu.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 21:36:01 GMT"
+    }
+  },
+  "uuid" : "e1029be6-9518-3dac-bb0d-ba534566b942"
+}

@@ -1,1 +1,0 @@
-{"type":"com.vmware.vapi.std.errors.already_in_desired_state","value":{"messages":[{"args":[],"default_message":"Virtual machine is already powered off.","id":"com.vmware.api.vcenter.vm.power.already_powered_off"},{"args":[],"default_message":"The attempted operation cannot be performed in the current state (Powered off).","id":"vmsg.InvalidPowerState.summary"}]}}
