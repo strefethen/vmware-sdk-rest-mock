@@ -46,7 +46,7 @@ Included is a shell script to run all of the tests using Wiremock. The script ma
 * The wiremock.jar file is located in ~/Downloads/wiremock/wiremock-standalone-2.5.0.jar
 * This git repostory is located at ~/github/vmware-sdk-rest-mock.
 
-    $ ./runtests.sh
+        $ ./runtests.sh
 
 The shell script enumerates the scripts from package.json, launches wiremock pointing to the correct mappings, 
 executes the node script and shutsdown wiremock for the next iteration.
