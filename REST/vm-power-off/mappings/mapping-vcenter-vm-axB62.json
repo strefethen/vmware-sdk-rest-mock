@@ -1,0 +1,17 @@
+{
+  "id" : "7d03510d-dd4d-3ef2-a69d-be919408fefe",
+  "request" : {
+    "url" : "/rest/vcenter/vm",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-vm-axB62.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 21:36:41 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "7d03510d-dd4d-3ef2-a69d-be919408fefe"
+}

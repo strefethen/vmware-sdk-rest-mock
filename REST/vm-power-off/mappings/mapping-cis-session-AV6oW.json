@@ -1,0 +1,15 @@
+{
+  "id" : "e6bd6cfe-c042-38ca-b174-65d27d346abb",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-AV6oW.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 21:36:43 GMT"
+    }
+  },
+  "uuid" : "e6bd6cfe-c042-38ca-b174-65d27d346abb"
+}
