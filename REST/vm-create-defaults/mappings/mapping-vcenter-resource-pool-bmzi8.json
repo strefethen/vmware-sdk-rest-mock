@@ -1,0 +1,17 @@
+{
+  "id" : "e13fe0c4-2fe9-3971-8649-773b894745c9",
+  "request" : {
+    "url" : "/rest/vcenter/resource-pool?filter.names.1=Resources&filter.hosts.1=host-773",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-resource-pool-bmzi8.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:58:19 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "e13fe0c4-2fe9-3971-8649-773b894745c9"
+}

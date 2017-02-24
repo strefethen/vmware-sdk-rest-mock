@@ -1,0 +1,17 @@
+{
+  "id" : "a30c005e-0343-356a-86b7-47022fa7e6a5",
+  "request" : {
+    "url" : "/rest/vcenter/host?filter.names.1=10.162.110.106",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-host-jfHfe.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:38:42 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "a30c005e-0343-356a-86b7-47022fa7e6a5"
+}

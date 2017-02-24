@@ -1,0 +1,15 @@
+{
+  "id" : "f509f8e8-ad2d-3ba3-b4ef-fff5fed16181",
+  "request" : {
+    "url" : "/rest/com/vmware/cis/session",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cis-session-rSWEu.txt",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:58:23 GMT"
+    }
+  },
+  "uuid" : "f509f8e8-ad2d-3ba3-b4ef-fff5fed16181"
+}

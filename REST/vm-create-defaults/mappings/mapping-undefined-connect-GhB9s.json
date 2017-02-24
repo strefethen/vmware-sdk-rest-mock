@@ -1,0 +1,17 @@
+{
+  "id" : "dc6b5d2d-98f7-3f89-ab1d-409319350efd",
+  "request" : {
+    "url" : "/rest/vcenter/host/undefined/connect",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 404,
+    "bodyFileName" : "body-undefined-connect-GhB9s.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:42:15 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "dc6b5d2d-98f7-3f89-ab1d-409319350efd"
+}

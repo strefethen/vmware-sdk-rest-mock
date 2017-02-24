@@ -1,0 +1,22 @@
+{
+  "id" : "2a67fe27-0a8e-3256-b36f-9e8f9e34cae1",
+  "request" : {
+    "url" : "/rest/vcenter/host",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"spec\":{\"force_add\":true,\"hostname\":\"10.162.110.106\",\"user_name\":\"root\",\"password\":\"\",\"port\":443,\"thumbprint_verification\":\"NONE\"}}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-vcenter-host-laXtG.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:42:00 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "2a67fe27-0a8e-3256-b36f-9e8f9e34cae1"
+}

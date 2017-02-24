@@ -1,0 +1,17 @@
+{
+  "id" : "0d014f28-2381-31a4-a583-8f03f2babff3",
+  "request" : {
+    "url" : "/rest/vcenter/folder?filter.type=VIRTUAL_MACHINE&filter.names.1=Discovered%20virtual%20machine",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-folder-WdbJ8.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:38:42 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "0d014f28-2381-31a4-a583-8f03f2babff3"
+}

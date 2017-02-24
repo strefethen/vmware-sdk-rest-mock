@@ -1,0 +1,22 @@
+{
+  "id" : "91c2584e-fb00-36dd-940b-35077f0ecb13",
+  "request" : {
+    "url" : "/rest/vcenter/vm",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"spec\":{\"guest_OS\":\"RHEL_7_64\",\"placement\":{\"datastore\":\"datastore-630\",\"folder\":\"group-v605\",\"resource_pool\":\"resgroup-650\"}}}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-vcenter-vm-8MVDK.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:38:42 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "91c2584e-fb00-36dd-940b-35077f0ecb13"
+}

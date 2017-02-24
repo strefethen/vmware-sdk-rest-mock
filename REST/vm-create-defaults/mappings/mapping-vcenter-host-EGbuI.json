@@ -1,0 +1,17 @@
+{
+  "id" : "9408023f-8535-34d3-b855-f758c695aa71",
+  "request" : {
+    "url" : "/rest/vcenter/host?filter.names.1=10.162.110.106&filter.connection_states.1=DISCONNECTED",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-host-EGbuI.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:42:14 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "9408023f-8535-34d3-b855-f758c695aa71"
+}

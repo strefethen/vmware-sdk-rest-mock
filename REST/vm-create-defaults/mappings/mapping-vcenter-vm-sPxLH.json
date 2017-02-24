@@ -1,0 +1,22 @@
+{
+  "id" : "dbf947bf-a48d-3529-8e43-aa2ea53494ac",
+  "request" : {
+    "url" : "/rest/vcenter/vm",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"spec\":{\"guest_OS\":\"RHEL_7_64\",\"placement\":{\"datastore\":\"datastore-794\",\"folder\":\"group-v770\",\"resource_pool\":\"resgroup-772\"}}}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-vm-sPxLH.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:58:19 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "dbf947bf-a48d-3529-8e43-aa2ea53494ac"
+}

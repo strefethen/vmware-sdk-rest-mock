@@ -1,0 +1,17 @@
+{
+  "id" : "65a62906-835b-3707-b608-0520d27cf8a6",
+  "request" : {
+    "url" : "/rest/vcenter/datacenter?filter.names.1=Sample%20DC%201",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-datacenter-CLMjW.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:42:00 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "65a62906-835b-3707-b608-0520d27cf8a6"
+}

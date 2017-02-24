@@ -1,0 +1,17 @@
+{
+  "id" : "4aa44752-e3d3-37c6-9c39-9790d95ac8da",
+  "request" : {
+    "url" : "/rest/vcenter/resource-pool?filter.names.1=Resources&filter.hosts.1=host-651",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-resource-pool-e17FT.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:38:42 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "4aa44752-e3d3-37c6-9c39-9790d95ac8da"
+}

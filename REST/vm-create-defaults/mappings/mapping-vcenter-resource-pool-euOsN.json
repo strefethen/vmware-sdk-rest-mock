@@ -1,0 +1,17 @@
+{
+  "id" : "334d9c74-e275-3775-b8cf-299f1a6bb296",
+  "request" : {
+    "url" : "/rest/vcenter/resource-pool?filter.names.1=Resources&filter.hosts.1=host-651",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-resource-pool-euOsN.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:42:25 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "334d9c74-e275-3775-b8cf-299f1a6bb296"
+}

@@ -1,1 +1,0 @@
-{"type":"com.vmware.vapi.std.errors.resource_inaccessible","value":{"messages":[{"args":[],"default_message":"Unable to access file ds:///vmfs/volumes/0d9b8498-a779e751/4ab09e0d-c7f8-48a5-924c-30f60b715c1b","id":"vmsg.CannotAccessFile.summary"}]}}

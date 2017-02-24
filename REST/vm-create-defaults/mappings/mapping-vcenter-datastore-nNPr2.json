@@ -1,0 +1,17 @@
+{
+  "id" : "aefbd556-fe95-389f-86fe-52d5916c9e0d",
+  "request" : {
+    "url" : "/rest/vcenter/datastore?filter.names.1=Shared%20NFS%20Volume",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-datastore-nNPr2.json",
+    "headers" : {
+      "Date" : "Fri, 24 Feb 2017 19:38:40 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "aefbd556-fe95-389f-86fe-52d5916c9e0d"
+}
