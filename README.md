@@ -10,7 +10,7 @@ Setup Steps:
 2. Create a folder for wiremock output ex: ~/Downloads/wiremock_output. This is where wiremock will place it's __file and mappings folders
 3. Run wiremock and capture API calls as follows:
 
-        java -jar wiremock-standalone-2.5.0.jar --proxy-all=https://sc-rdops-vm20-dhcp-124-25.eng.vmware.com --https-port=8082 --verbose --root-dir ~/Downloads/wiremock_output --record-mappings
+        java -jar wiremock-standalone-2.5.0.jar --proxy-all=<vsphere-url> --https-port=8082 --verbose --root-dir ~/Downloads/wiremock_output --record-mappings
 
 4. In settings.js use:
 
@@ -18,16 +18,16 @@ Setup Steps:
 
         module.exports = {
             host: 'https://localhost:8082', //No default! Please provide a value.
-            username: 'administrator@vsphere.local', //username. No default! Please provide a value.
-            password: 'Admin!23', // password. No default! Please provide a value.
+            username: '<username>', //username. No default! Please provide a value.
+            password: '<password>', // password. No default! Please provide a value.
             ssl: false, // use strict ssl or not.. false allows you to accept all certs.
                         // NOTE: SSL should be set to true in a production environment.
-            host1: '10.162.110.106',
-            host2: '10.162.98.79',
-            hostUsername: 'root',
+            host1: '<esx-host-ip-address>',
+            host2: '<esx-host-ip-address>',
+            hostUsername: '<host-username>',
             hostPassword: '',
-            datacenter: 'Sample DC 1', // the name of the datacenter
-            datastore: 'Shared NFS Volume', // the name of a datastore
+            datacenter: '<datacenter-name>', // the name of the datacenter
+            datastore: '<datastore-name>', // the name of a datastore
             vmName: 'Sample Basic VM for Simple Testbed', // a name of a VM, used in some of the samples,
             isoName: 'photonOS.iso', // the name of the ISO to use as the OS when creating a VM
                         // (e.g. [datastore1] hoton-minimal-1.0TP2.iso)
