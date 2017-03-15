@@ -1,6 +1,6 @@
-# Mocking REST SDK Samples
+# Mocking VMware REST SDK Samples using Wiremock
 
-Leveraging [Wiremock](http://wiremock.org/docs/running-standalone/) we can capture sample API calls to vSphere.
+Leveraging [Wiremock](http://wiremock.org/docs/running-standalone/) we can capture REST API calls to vSphere.
 
 ## Capturing API calls from an SDK Sample:
 
