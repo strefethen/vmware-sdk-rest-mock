@@ -6,15 +6,16 @@ Leveraging [Wiremock](http://wiremock.org/docs/running-standalone/) we can captu
 
 Setup Steps:
 
-1. [Download wiremock](http://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-standalone/2.5.0/wiremock-standalone-2.5.0.jar) (java app)
-2. Create a folder for wiremock output ex: ~/Downloads/wiremock_output. This is where wiremock will place it's __file and mappings folders
-3. Run wiremock and capture API calls as follows:
+1. Download and setup the [vSphere Automation SDK for REST](https://github.com/vmware/vsphere-automation-sdk-rest) normally.
+2. [Download wiremock](http://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-standalone/2.5.0/wiremock-standalone-2.5.0.jar) (java app)
+3. Create a folder for wiremock output ex: ~/Downloads/wiremock_output. This is where wiremock will place it's __file and mappings folders
+4. Run wiremock and capture API calls as follows:
 
         java -jar wiremock-standalone-2.5.0.jar --proxy-all=<vsphere-url> --https-port=8082 --verbose --root-dir ~/Downloads/wiremock_output --record-mappings
 
-4. In settings.js use:
+5. In settings.js use the following:
 
-    Note: This example uses the setup testbed as created by the Python SDK.
+    Note: This example uses the setup testbed as created by the Python SDK setup script.
 
         module.exports = {
             host: 'https://localhost:8082', //No default! Please provide a value.
@@ -34,7 +35,7 @@ Setup Steps:
             cleanup: true // true to clean up any data a sample created, false to leave it
         }
 
-5. Run the SDK Samples
+6. Run the SDK Samples
 
 Following the recording of a sample, wiremock will have captured the results of the API calls
 in two folders under the "__files" and "mappings".
@@ -55,7 +56,7 @@ executes the node script and shutsdown wiremock for the next iteration.
 
         java -jar wiremock-standalone-2.5.0.jar --https-port=8082 --verbose --root-dir ~/REST/<sample_name>
 
-2. Re-run the same SDK sample which should use the captured API calls from wiremock.
+2. Re-run the same SDK sample which should now use the captured API calls from wiremock.
 
 NOTE: For Python the wiremock server can proxy port 443 though on Linux/OSX it will need to be launched using sudo to bind to that port #. On Windows this means
 you'll need to use either "runas" from the command line or start a Command Prompt using "Run as Adminstrator" to access port 443. Also, note that if you are running
