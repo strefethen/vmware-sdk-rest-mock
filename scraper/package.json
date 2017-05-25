@@ -13,9 +13,6 @@
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.9.0",
-    "mkdirp": "^0.5.1",
-    "pug": "^2.0.0-rc.1",
-    "superagent": "^3.5.2"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
