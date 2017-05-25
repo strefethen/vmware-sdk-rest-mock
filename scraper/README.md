@@ -8,3 +8,12 @@ Install:
 Execute:
 
     node index.js <path_to_wiremock_output>
+
+Example using output from this repo:
+
+    $ node index.js ../REST
+    Output Path: ../REST
+    /rest/com/vmware/cis/session
+    /rest/com/vmware/cis/session
+    /rest/vcenter/datacenter/datacenter-591
+    ...
